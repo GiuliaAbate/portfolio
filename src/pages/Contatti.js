@@ -34,7 +34,7 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST">
+                <form name="contact" method="POST" netlify>
                     <div className="input-container">
                         <label>Nome</label>
                         <input type="text" name="name" />
