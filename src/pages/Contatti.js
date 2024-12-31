@@ -34,7 +34,7 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST" netlify-honeypot="bot-field" hidden>
+                <form name="contact" method="POST">
                     <input type="hidden" name="contact" value="contact" />
                     <div className="input-container">
                         <label>Nome</label>
