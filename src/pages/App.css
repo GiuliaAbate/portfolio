@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #3b2c71;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.more-info{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.more-info h2{
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:600;
+}
+
+.info-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.presentazione {
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.presentazione h1 {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 60px;
+}
+
+/*Pagina Chi sono*/
+
+.about-me, .competenze{
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 40px;
+  text-align:left;
+}
+
+.about-me h3{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.chi-sono{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.linguaggi {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  padding: 10px;
+  justify-items: center; 
+  align-items: center;
+}
+
+.linguaggi div {
+  background-color: #a371dda8;
+  border-radius: 15px;
+  width: 100%; /* Ogni div prende tutta la larghezza disponibile della sua colonna */
+  max-width: 200px; /* Imposta una larghezza massima per evitare che diventino troppo grandi */
+  height: 80px; /* Imposta un'altezza fissa per mantenere simmetria */
+  display: flex;
+  justify-content: center; /* Centra il contenuto orizzontalmente */
+  align-items: center; /* Centra il contenuto verticalmente */
+  margin-top: 20px; /* Distanza tra i div */
+  margin-left: 20px;
+}
+
+.linguaggi div p {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+/*Pagina PROGETTI*/
+
+
+.container h2{
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #EDF67D;
+}
+
+.card {
+  width: 100% !important;
+  height: 420px !important;
+  transition: box-shadow 0.3s ease !important;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.19) !important;
+  transform: scale(1.1) !important;
+}
+
+.card-title{
+  color: #564592 !important;
+  font-weight: bolder !important;
+  font-size: 30px !important;
+  margin-top: 15px !important;
+}
+
+.card-desc {
+  color: black  !important;
+  font-size: 20px !important;
+  margin-top: 10px !important;
+}
+
+.prjcts-button {
+  width: 150px !important;
+  height: 50px !important;
+  color: black !important;
+  background-color: #F896D8 !important;
+  border-radius: 10px !important;
+  border-color: #F896D8 !important;
+  font-family:'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  padding-top: 10px !important;
+}
+
+.prjcts-button:hover {
+  background-color: #724CF9 !important;
+  border-color:  #724CF9 !important;
+  color: white !important;
+}
+
+/* Pagina Progetto specifico*/
+
+.container h1{
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #EDF67D;
+}
+
+.descrizione {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px;
+  text-align: left;
+}
+
+.descrizione p {
+  font-size: 20px;
+  padding: 30px;
+}
+
+
+.img-fluid{
+  border-radius: 20px;
+  margin: 15px;
+  padding: 10px;
+}
+
+.link-button{
+  width: 200px !important;
+  height: 60px !important;
+  color: black !important;
+  background-color: #F896D8 !important;
+  border-radius: 10px !important;
+  border-color: #F896D8 !important;
+  font-family:'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; 
+  text-decoration: none !important;
+}
+
+.link-button:hover {
+  background-color: #EDF67D !important;
+  border-color:  #EDF67D !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+/*Pagina contatti */
+
+
+.recapiti, .form-contatto {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.recapiti {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center; /* Allinea la scritta accanto all'icona */
+  gap: 10px; /* Distanza tra l'icona e la scritta */
+}
+
+.icon-container h4 {
+  margin: 0;
+}
+
+.contact-button{
+  width: 200px !important;
+  height: 60px !important;
+  color: black !important;
+  background-color: #F896D8 !important;
+  border-radius: 10px !important;
+  border-color: #F896D8 !important;
+  font-family:'Poppins', sans-serif !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+}
+
+.contact-button:hover {
+  background-color: #EDF67D !important;
+  border-color:  #EDF67D !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.form-contatto input {
+  height: 40px;
+  width: 50%;
+  border: 5px solid #F896D8;
+  border-radius: 5px;
+}
+
+.form-contatto textarea {
+  margin-top: 10px;
+  height: 220px;
+  width: 90%;
+  border: 5px solid #F896D8;
+  border-radius: 5px;
+  resize: none;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px; 
+}
+
+.form-contatto label {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.form-contatto input:focus {
+  border-color: #e95cba;
+}
+
+.form-contatto textarea:focus {
+  border-color: #e95cba;
+}

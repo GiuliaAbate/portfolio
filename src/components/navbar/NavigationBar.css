@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One');
+
+.custom-navbar {
+    background-color: #564592 !important;
+    padding: 20px !important; 
+}
+
+.title {
+    font-family: 'Lilita One', sans-serif !important;
+    font-size: 35px !important;
+    text-decoration: none;
+    color: #F896D8 !important;
+    margin: 0 15px !important;
+}
+
+.title:hover{
+    color: #EDF67D !important; 
+}
+
+.nav-link {
+    font-family: 'Lilita One', sans-serif !important;
+    color: white !important;
+    margin: 0 15px !important;
+    font-size: 30px !important;
+}
+
+.nav-link:hover {
+    color: #EDF67D !important;
+}

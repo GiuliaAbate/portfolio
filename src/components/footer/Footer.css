@@ -1,0 +1,23 @@
+.footer{
+    display: flex; 
+    padding: 15px; 
+    justify-content:center;
+    align-items: center;
+    background-color: #564592;
+    color: white;
+    font-size: 15px;
+
+}
+
+.contatti {
+    padding: 25px;
+    margin-left: 10px;
+}
+
+.contatti a{
+    padding: 10px;
+}
+
+.contatti p{
+    margin-top: 20px;
+}
