@@ -35,7 +35,7 @@ function Contatti(){
 
             <div className="form-contatto col-xs-12 col-lg-6">
                 <form name="contact" method="POST">
-                    <input type="hidden" name="contact" value="contact" />
+                    <input type="hidden" name="form-name" value="contact" />
                     <div className="input-container">
                         <label>Nome</label>
                         <input type="text" name="name" />
