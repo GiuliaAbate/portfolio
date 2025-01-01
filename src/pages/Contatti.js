@@ -4,17 +4,26 @@ import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { Button } from "react-bootstrap";
 
-//import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 function Contatti(){
-    /*const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        
-        navigate("/Success")
-    }*/
+
+        const mioForm = e.target;
+        const formData = new FormData(mioForm);
+
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(formData).toString()
+          })
+            .then(() => navigate("/ConfermaInvio/"))
+            .catch(error => alert(error));
+    }
 
     return(
         <div className="container contact-me">
@@ -44,7 +53,7 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST" action="/ConfermaInvio" data-netlify="true">
+                <form name="contact" method="POST" onSubmit={handleSubmit} data-netlify="true">
                     <input type="hidden" name="form-name" value="contact"  />
                     <div className="input-container">
                         <label>Nome</label>
