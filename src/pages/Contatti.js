@@ -4,16 +4,16 @@ import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { Button } from "react-bootstrap";
 
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 
 function Contatti(){
-    const navigate = useNavigate();
+    /*const navigate = useNavigate();
 
     const handleSumbit = (e) => {
         e.preventDefault();
         navigate("/Success")
-    }
+    }*/
 
     return(
         <div className="container contact-me">
@@ -43,7 +43,7 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST" onSubmit={handleSumbit}>
+                <form name="contact" method="POST" action="/Success">
                     <input type="hidden" name="form-name" value="contact"  />
                     <div className="input-container">
                         <label>Nome</label>
