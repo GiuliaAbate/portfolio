@@ -2,18 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { Button } from "react-bootstrap";
-
 import { useNavigate } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 
 function Contatti(){
     const navigate = useNavigate();
-
-    const handleSumbit = (e) => {
-        e.preventDefault();
-        navigate("/Success")
-    }
 
     return(
         <div className="container contact-me">
@@ -43,28 +37,8 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST" onSubmit={handleSumbit}>
-                    <input type="hidden" name="form-name" value="contact"  />
-                    <div className="input-container">
-                        <label>Nome</label>
-                        <input type="text" name="name" />
-
-                        <br></br>
-
-                        <label>Email</label>
-                        <input type="email" name="email"/>
-
-                        <br></br><br></br>
-                    </div>
-
-                    <div>
-                        <label>Messaggio</label>
-                        <br></br>
-                        <textarea name="messaggio" />
-                    </div>
-                    <br></br><br></br>
-                    <Button type="submit" name="sumbit" className="contact-button">Invia</Button>
-                </form>
+                <h3 className="conferma"> Il tuo messaggio è stato inviato correttamente!</h3>
+                <Button className="contact-button" onClick={() => navigate(`/`)}>Homepage</Button>
             </div>
         </div>
     );

@@ -287,3 +287,8 @@
 .form-contatto textarea:focus {
   border-color: #e95cba;
 }
+
+.conferma {
+  padding: 40px;
+  font-size: 30px;
+}

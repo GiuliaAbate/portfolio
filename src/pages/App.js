@@ -15,6 +15,8 @@ import Progetti from './Progetti';
 import Contatti from './Contatti';
 import Homepage from './Homepage';
 import InfoProgetto from './InfoProgetto';
+import Success from './Success';
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -27,8 +29,11 @@ function App() {
             <Route path="/About" element={<About />}/>
             <Route path="/Progetti" element={<Progetti />}/>
             <Route path="/Contatti" element={<Contatti />}/>
-
+            <Route path="/Success" element={<Success />}/>
             <Route path="/project/:id" element={<InfoProgetto />} />
+
+            <Route path="*" element={<NotFound />} />
+            
         </Routes>
       </header>
 

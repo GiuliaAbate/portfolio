@@ -30,8 +30,9 @@ function InfoProgetto() {
         <br></br>
 
         <Button 
-        className="link-button"
-        href="https://github.com/GiuliaAbate/OnLibrary"
+          className="link-button"
+          href="https://github.com/GiuliaAbate/OnLibrary"
+          target="_blank"
         >
           Codice del progetto
         </Button>
@@ -60,8 +61,9 @@ function InfoProgetto() {
         <br></br>
 
         <Button 
-        className="link-button"
-        href="https://github.com/GiuliaAbate/Museo_Arte_Orientale"
+          className="link-button"
+          href="https://github.com/GiuliaAbate/Museo_Arte_Orientale"
+          target="_blank"
         >
           Codice del progetto
         </Button>
@@ -87,8 +89,9 @@ function InfoProgetto() {
         <br></br><br></br>
 
         <Button 
-        className="link-button"
-        href="https://github.com/GiuliaAbate/GameNect"
+          className="link-button"
+          href="https://github.com/GiuliaAbate/GameNect"
+          target="_blank"
         >
           Codice del progetto
         </Button>
