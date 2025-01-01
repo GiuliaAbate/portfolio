@@ -10,8 +10,9 @@ import { Button } from "react-bootstrap";
 function Contatti(){
     /*const navigate = useNavigate();
 
-    const handleSumbit = (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
+        
         navigate("/Success")
     }*/
 
@@ -43,7 +44,7 @@ function Contatti(){
             </div>
 
             <div className="form-contatto col-xs-12 col-lg-6">
-                <form name="contact" method="POST">
+                <form name="contact" method="POST" action="/Success" data-netlify="true">
                     <input type="hidden" name="form-name" value="contact"  />
                     <div className="input-container">
                         <label>Nome</label>
