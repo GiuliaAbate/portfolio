@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
 
-function Contatti(){
+function ConfermaInvio(){
     const navigate = useNavigate();
 
     return(
@@ -44,4 +44,4 @@ function Contatti(){
     );
 }
 
-export default Contatti;
+export default ConfermaInvio;
