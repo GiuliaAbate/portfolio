@@ -1,8 +1,11 @@
 import React from "react";
+
+import { useNavigate } from "react-router-dom";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { useNavigate } from "react-router-dom";
+
 import { Button } from "react-bootstrap";
 
 

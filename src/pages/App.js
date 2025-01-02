@@ -1,5 +1,6 @@
 import React from 'react';
 
+//import dei route e router per la navigazione del menu
 import { Routes, Route} from 'react-router-dom';
 
 //CSS

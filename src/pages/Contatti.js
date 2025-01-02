@@ -1,15 +1,18 @@
 import React from "react";
+
+import { useNavigate } from "react-router-dom";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { Button } from "react-bootstrap";
 
-import { useNavigate } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 
 function Contatti(){
     const navigate = useNavigate();
 
+    //Gestione dell'invio del form con funzione
     const handleSubmit = (e) => {
         e.preventDefault();
 
@@ -21,7 +24,7 @@ function Contatti(){
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: new URLSearchParams(formData).toString()
           })
-            .then(() => navigate("/ConfermaInvio/"))
+            .then(() => navigate("/ConfermaInvio/")) 
             .catch(error => alert(error));
     }
 

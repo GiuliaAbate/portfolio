@@ -1,6 +1,12 @@
 import React from "react";
+
+/*Import di link per navigare alle pagine dalla navbar*/ 
 import { Link } from "react-router-dom";
+
+/*Import bootstrap*/
 import { Navbar, Nav, Container } from "react-bootstrap";
+
+//CSS
 import './NavigationBar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

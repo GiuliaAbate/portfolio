@@ -1,40 +1,39 @@
 //CSS
 import './Button.css'
 
+/* Import dei PropTypes*/
 import PropTypes from 'prop-types';
 
-function Button(props){
+function Button(props){ /*Al componente si passano delle props*/
 
-    function pressButton(){ //altra sintassi --> let pressButton = (id) = () => { props.callback() }
+    /* Funzione chiamata quando si clicca sul pulsante */
+    function pressButton(){ 
         props.callback()
     }
 
     return(
-        <div onClick={pressButton} style={ //quando si richiama una funzione di tipo evento non si mettono mai le parentesi tonde per richiamare una funzione, 
-                                            //e negli altri casi si devono sempre mettere
-            {
-                backgroundColor: props.backgroundColor,
-                fontSize: props.size
-            }
-        }
+        <div onClick={pressButton} 
+            style={{
+                backgroundColor: props.backgroundColor, //Il colore di sfondo viene preso dal colore specificato nel pulsante di homepage.js
+            }}
             className='button'
         >
             {
-                props.label
+                props.label //Prende il label definito in homepage
             }
         </div>
     )
 }
 
-Button.propTypes={ //propTypes sono dei veri e propri oggetti
-    callback: PropTypes.func.isRequired, //callback può passare solo ed esclusivamente funzioni e ci deve essere per forza 
-    backgroundColor: PropTypes.string, //non è obbligatorio
-    label: PropTypes.string //non è obbligatorio
-}
+    Button.propTypes={ 
+        callback: PropTypes.func.isRequired, 
+        backgroundColor: PropTypes.string, 
+        label: PropTypes.string 
+    }
 
-Button.defaultProps={
-    label: 'press',
-    backgroundColor: 'red'
-}
+    Button.defaultProps={
+        label: 'clicca',
+        backgroundColor: 'pink'
+    }
 
 export default Button

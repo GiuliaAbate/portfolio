@@ -1,12 +1,16 @@
 import React from "react";
+
+//Si import useParams per gestire in modo dinamico la pagina del singolo progetto
 import { useParams } from "react-router-dom";
+
 import { Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function InfoProgetto() {
-  const { id } = useParams(); // Ottieni l'id dalla rotta
+  const { id } = useParams(); //Si ottiene l'id
 
+  //Informazioni dei singoli progetti
   const InfoProgetto = {
     1: {
       title: "OnLibrary",
@@ -39,6 +43,7 @@ function InfoProgetto() {
       </>,
       image: "/assets/onlibrary-php.gif",
     },
+
     2: {
       title: "Museo d'Arte Orientale",
       description: 
@@ -70,6 +75,7 @@ function InfoProgetto() {
       </>,
       image: "/assets/museo-orientale.gif",
     },
+
     3: {
       title: "GameNect",
       description: 
@@ -101,7 +107,7 @@ function InfoProgetto() {
     },
   };
 
-  const project = InfoProgetto[id];
+  const project = InfoProgetto[id]; //Si utilizza l'id per visualizzare le info
 
   return (
     <div className="container mt-4">
