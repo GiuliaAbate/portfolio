@@ -18,6 +18,10 @@
     padding: 10px;
 }
 
+.icon-footer:hover{
+    color: #EDF67D;
+}
+
 .contatti p{
     margin-top: 20px;
 }

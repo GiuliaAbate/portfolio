@@ -18,7 +18,7 @@ function ConfermaInvio(){
                 <h2>I miei contatti</h2>
 
                 <div className="icon-container">
-                    <a href="https://www.linkedin.com/in/giulia-abate-761236308/">
+                    <a href="https://www.linkedin.com/in/giulia-abate/">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" color="#EDF67D" />
                     </a>
                                 

@@ -10,14 +10,15 @@ function Footer(){
     return(
         <div className="footer">
             <div className="contatti">
-            <a href="https://www.linkedin.com/in/giulia-abate-761236308/">
-            <FontAwesomeIcon icon={faLinkedin} size="2x" color="#F896D8" />
-            </a>
-            <a href="https://github.com/GiuliaAbate">
-            <FontAwesomeIcon icon={faGithub} size="2x" color="#F896D8" />
-            </a>
-            
-            <p>© Copyright 2024. Sito realizzato da Giulia Abate</p>
+                <a href="https://www.linkedin.com/in/giulia-abate/">
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" color="#F896D8" className="icon-footer"/>
+                </a>
+                
+                <a href="https://github.com/GiuliaAbate">
+                    <FontAwesomeIcon icon={faGithub} size="2x" color="#F896D8" className="icon-footer"/>
+                </a>
+                
+                <p>© Copyright 2025. Sito realizzato da Giulia Abate</p>
             </div>
 
         </div>

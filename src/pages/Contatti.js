@@ -34,8 +34,8 @@ function Contatti(){
                 <h2>I miei contatti</h2>
 
                 <div className="icon-container">
-                    <a href="https://www.linkedin.com/in/giulia-abate-761236308/">
-                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#EDF67D" />
+                    <a href="https://www.linkedin.com/in/giulia-abate/">
+                        <FontAwesomeIcon icon={faLinkedin} size="2x" color="#EDF67D" className="icon-contact"/>
                     </a>
                                 
                     <h4>Giulia Abate</h4>
@@ -43,7 +43,7 @@ function Contatti(){
 
                 <div className="icon-container">
                     <a href="https://github.com/GiuliaAbate">
-                        <FontAwesomeIcon icon={faGithub} size="2x" color="#EDF67D" />
+                        <FontAwesomeIcon icon={faGithub} size="2x" color="#EDF67D" className="icon-contact" />
                     </a>
 
                     <h4>Giulia Abate</h4>
