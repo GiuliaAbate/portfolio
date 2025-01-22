@@ -125,7 +125,7 @@ function InfoProgetto() {
         <br></br><br></br>
         La classe principale, Computer, definisce attributi come ID, marca e valore, con sottoclassi come Computer Privato e Computer Tavolo. Altre classi includono Persona, per gli utilizzatori, e Case Produttrici, per i produttori.
         La gestione dei computer è affidata a Computer Service e Computer ServiceList, che usano rispettivamente array e ArrayList, mentre Yellow Pages la mappa città e servizi tramite HashMap. 
-        I metodi definiti in queste classi sono stati testati nel main per verificarne l'efficacia.
+        I metodi definiti in queste classi sono stati testati nel main per verificarne il funzionamento
         <br></br><br></br>
 
         <h3 style={{color: "#F896D8"}}>Tecnologie utilizzate:</h3>
