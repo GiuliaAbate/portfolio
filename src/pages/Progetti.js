@@ -14,6 +14,7 @@ function Progetti(){
     { id: 1, title: "OnLibrary", image: "/assets/onlibrary.png", description: "Piattaforma online per la gestione delle biblioteche." },
     { id: 2, title: "Museo D'arte Orientale", image: "/assets/museo.png", description: "Sito web interattivo di un museo d'arte orientale" },
     { id: 3, title: "GameNect", image: "/assets/gamenect.png", description: "Piattaforma social per i videogiocatori italiani." },
+    { id: 4, title: "Servizio di gestione di computer", description: "Applicazione per la gestione di computer, case produttrici, utilizzatori e servizi." },
   ]
 
   return (

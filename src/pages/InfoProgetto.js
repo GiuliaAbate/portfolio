@@ -94,16 +94,57 @@ function InfoProgetto() {
 
         <br></br><br></br>
 
+        <div style={{ display: 'flex', gap: '10px' }}>
+          <Button 
+            className="link-button"
+            href="https://github.com/GiuliaAbate/GameNect"
+            target="_blank"
+          >
+            Codice del progetto
+          </Button>
+          <br></br>
+          <Button 
+            className="link-button"
+            href="https://www.figma.com/design/3I8T3k6gdsZQ1zjTIcPFOl/GameNect?node-id=0-1&t=J0yb7EBbhvJNGxRk-1"
+            target="_blank"
+          >
+            Prototipo 
+          </Button>
+        </div>
+      </>,
+      image: "/assets/gamenect-tesi.gif",
+    },
+
+    4: {
+      title: "Servizio di gestione di computer",
+      description: 
+      <>
+        L'applicazione è un servizio dedicato alla gestione di computer tramite una struttura orientata agli oggetti. 
+        Questo progetto comprende classi per rappresentare dei computer con anche sottoclassi specifiche, utilizzatori, case produttrici e servizi.
+
+        <br></br><br></br>
+        La classe principale, Computer, definisce attributi come ID, marca e valore, con sottoclassi come Computer Privato e Computer Tavolo. Altre classi includono Persona, per gli utilizzatori, e Case Produttrici, per i produttori.
+        La gestione dei computer è affidata a Computer Service e Computer ServiceList, che usano rispettivamente array e ArrayList, mentre Yellow Pages la mappa città e servizi tramite HashMap. 
+        I metodi definiti in queste classi sono stati testati nel main per verificarne l'efficacia.
+        <br></br><br></br>
+
+        <h3 style={{color: "#F896D8"}}>Tecnologie utilizzate:</h3>
+        <ul>
+          <li>Java</li>
+        </ul>
+
+        <br></br>
+
         <Button 
           className="link-button"
-          href="https://github.com/GiuliaAbate/GameNect"
+          href="https://github.com/GiuliaAbate/Servizio_Gestione_Computer"
           target="_blank"
         >
           Codice del progetto
         </Button>
-
       </>,
-      image: "/assets/gamenect-tesi.gif",
+
+      image: null,
     },
   };
 
@@ -119,7 +160,9 @@ function InfoProgetto() {
           </div>
         </div>
         <div className="col-12 col-md-6">
+        {project.image && (
           <img src={project.image} alt={project.title} className="img-fluid" />
+        )}
         </div>
       </div>
     </div>

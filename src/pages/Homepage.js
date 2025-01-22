@@ -23,7 +23,7 @@ function Homepage(){
         <>
             <div className="presentazione">
                 <h1>Ciao! Mi chiamo Giulia Abate</h1>
-                <p>Sono una neolaureata in ICT interessata allo sviluppo front-end e con una forte passione verso il digitale e le nuove tecnologie</p>
+                <p>Sono una laureata in ICT interessata allo sviluppo web con una forte passione verso il digitale e le nuove tecnologie</p>
             </div>
         
             <div className="more-info">

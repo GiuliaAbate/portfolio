@@ -14,11 +14,11 @@ function About(){
                 <h2>Chi sono</h2>
                 <h3>Scopri di più su di me, la mia storia e le mie competenze</h3>
                 <p>
-                    Mi chiamo Giulia Abate, sono un Neolaureata in Innovazione Sociale, Comunicazione e Nuove Tecnologie all'università di Torino con una forte passione lo sviluppo front-end.
-                    Sono una persona curiosa e interessata a scoprire nuove tecnologie e linguaggi di programmazione per migliorare sempre di più le mie abilità.
+                    Mi chiamo Giulia Abate, sono laureata in Innovazione Sociale, Comunicazione e Nuove Tecnologie all'università di Torino con una forte passione verso lo sviluppo web.
+                    Sono una persona curiosa e interessata a scoprire nuove tecnologie e linguaggi di programmazione per migliorare sempre di più le mie competenze.
                     
                     <br></br><br></br>
-                    Durante il mio percorso universitario ho svolto vari progetti, sia in gruppo che individuali, concentrati sulla realizzazione di siti web utilizzando diversi linguaggi tenendo in considerazione i principi di usabilità e accessibilità.
+                    Durante il mio percorso universitario ho svolto vari progetti, sia in gruppo che individuali, concentrati sulla realizzazione di siti web e applicazioni utilizzando diverse tecnologie, tenendo in considerazione i principi di usabilità e accessibilità.
                     
                     <br></br><br></br>
                     Oltre all'informatica ho altri hobby e passioni come i videogiochi e l'interesse verso altre culture e lingue straniere.
