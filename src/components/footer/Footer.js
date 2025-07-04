@@ -5,6 +5,12 @@ import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
+function FooterDate(){
+    const fullYear = new Date().getFullYear();
+    return (
+        <p> @ Copyright {fullYear}. Sito realizzato da Giulia Abate</p>
+    )
+}
 
 function Footer(){
     return(
@@ -18,7 +24,7 @@ function Footer(){
                     <FontAwesomeIcon icon={faGithub} size="2x" color="#F896D8" className="icon-footer"/>
                 </a>
                 
-                <p>© Copyright 2025. Sito realizzato da Giulia Abate</p>
+                <FooterDate />
             </div>
 
         </div>
