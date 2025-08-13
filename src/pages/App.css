@@ -3,20 +3,19 @@
 
 .App {
   text-align: center;
+  background-color: #3b2c71;
 }
 
 .App-header {
-  background-color: #3b2c71;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-  margin: 0px;
-  padding: 0px;
+  margin-bottom: 20px;
   overflow-x: hidden;
+  padding: 5%;
+  font-size: 23px;
 }
 
 .App-link {
@@ -113,7 +112,7 @@
 
 .card {
   width: 100% !important;
-  height: 420px !important;
+  height: auto !important;
   transition: box-shadow 0.3s ease !important;
 }
 
