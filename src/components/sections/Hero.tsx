@@ -1,4 +1,4 @@
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Mail } from 'lucide-react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -42,15 +42,25 @@ function Hero() {
                     </Link>
 
                     <Link
-                        to="/contact"
+                        to="/assets/giulia_abate_fullstackCV_1.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="rounded-lg border border-white/15 px-6 py-3 font-semibold text-white transition-colors duration-200 hover:border-accent hover:text-accent"
                     >
-                        Contattami
+                        Scarica il CV
                     </Link>
 
                 </div>
 
                 <div className="mt-12 flex items-center gap-6">
+
+                    <a
+                        href="mailto:giulia.abate1101@gmail.com"
+                        aria-label="Email"
+                        className="text-gray-400 transition-colors hover:text-accent"
+                    >
+                        <Mail size={22} />
+                    </a>
 
                     <a
                         href="https://github.com/GiuliaAbate"

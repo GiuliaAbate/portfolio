@@ -26,9 +26,6 @@ function Navbar() {
                         Progetti
                     </NavLink>
 
-                    <NavLink to="/contact" className={linkStyle}>
-                        Contatti
-                    </NavLink>
                 </div>
 
             </nav>
