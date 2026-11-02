@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
 
 @import "tailwindcss";
 
@@ -9,7 +9,7 @@
   --color-text: #f3f0fa;
 
   --font-sans: "Inter", sans-serif;
-  --font-heading: "Space Grotesk", sans-serif;
+  --font-heading: "Instrument Sans", sans-serif;
 }
 
 body {

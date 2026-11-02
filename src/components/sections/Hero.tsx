@@ -22,7 +22,7 @@ function Hero() {
                     Ciao, sono Giulia.
                     <br />
                     <span className="text-accent">
-                        Sviluppo esperienze digitali.
+                        Sono una sviluppatrice Full Stack.
                     </span>
                 </h1>
 
