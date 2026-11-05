@@ -42,7 +42,7 @@ function Hero() {
                     </Link>
 
                     <Link
-                        to="/assets/giulia_abate_fullstackCV_1.pdf"
+                        to="/assets/abate_giulia_cv_fullstack.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="rounded-lg border border-white/15 px-6 py-3 font-semibold text-white transition-colors duration-200 hover:border-accent hover:text-accent"

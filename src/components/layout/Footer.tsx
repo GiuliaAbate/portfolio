@@ -17,7 +17,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/giulia-abate/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 transition-colors hover:text-accent">
                         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                     </a>
-                    <a href="/assets/giulia_abate_fullstackCV.pdf" download="giulia_abate_fullstackCV.pdf" className="transition-colors hover:text-accent">
+                    <a href="/assets/abate_giulia_cv_fullstack.pdf" download="abate_giulia_cv_fullstack.pdf" className="transition-colors hover:text-accent">
                         Scarica CV
                     </a>
                 </div>
